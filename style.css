@@ -272,20 +272,19 @@ p {
 }
 
 .delete-btn {
-  background: #f5f7fa;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
   border: none;
-  color: #b00;
-  padding: 6px 14px;
-  border-radius: 6px;
+  color: #888;
+  font-size: 20px;
   cursor: pointer;
-  font-size: 15px;
-  transition: background 0.15s, color 0.15s;
-  margin-left: 12px;
-  text-align: right;
+  transition: color 0.2s;
 }
 .delete-btn:hover {
-  background: #b00;
-  color: #fff;
+  color: #e74c3c;
 }
 
 .save-inline-btn {
